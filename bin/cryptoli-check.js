@@ -8,10 +8,11 @@ program
 .option('--cur <currency>', 'Change the currency', 'USD')
 .action(cmd => check.price(cmd));
 
-// program
-// .command('show')
-// .description('Show API key')
-// .action(key.show);
+program
+.command('volume')
+.description('Volume for all cryptoassets at intervals of 1 day')
+.option('--cur <currency>', 'Change the currency', 'USD')
+.action(cmd=>check.volume(cmd));
 
 // program
 // .command('remove')
