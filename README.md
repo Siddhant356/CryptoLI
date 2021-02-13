@@ -39,9 +39,9 @@ cryptoli check --coin=BTC,ETH
 cryptoli check --cur=EUR
 ```
 
-## Packages
-* axios
-* commander
-* configstore
-* inquirer
-* colors
+## Packages used
+* [axios](https://www.npmjs.com/package/axios)
+* [commander](https://www.npmjs.com/package/commander)
+* [configstore](https://www.npmjs.com/package/configstore)
+* [inquirer](https://www.npmjs.com/package/inquirer)
+* [colors](https://www.npmjs.com/package/colors)
