@@ -10,7 +10,7 @@ program
 
 program
 .command('top')
-.description('Check price of top 50 coins')
+.description('Check price of top 20 coins')
 .option('--cur <currency>', 'Change the currency', 'USD')
 .action(cmd => check.price(cmd));
 
