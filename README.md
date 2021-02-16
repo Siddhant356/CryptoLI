@@ -29,6 +29,7 @@ cryptoli key remove
 # Crypto Check Commands
 cryptoli check price
 cryptoli check volume
+cryptoli check top
 ```
 ## Options
 ```bash
