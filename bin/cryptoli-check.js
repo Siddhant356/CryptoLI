@@ -9,6 +9,12 @@ program
 .action(cmd => check.price(cmd));
 
 program
+.command('top')
+.description('Check top 50 coins')
+.option('--cur <currency>', 'Change the currency', 'USD')
+.action(cmd => check.price(cmd));
+
+program
 .command('volume')
 .description('Volume for all cryptoassets at intervals of 1 day')
 .option('--cur <currency>', 'Change the currency', 'USD')
